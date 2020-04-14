@@ -1,0 +1,154 @@
+@font-face{
+    font-family: 'uni sans';
+    src: url('../fonts/Uni\ Sans\ Bold.otf');
+    src:url('../fonts/Uni\ Sans\ Regular.otf');
+}
+body{
+    background: url('../img/Background-tanpa-icon-dan-logo.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+
+.text-responsive {
+  font-size: calc(0.5% + 0.7vw + 1vh);
+}
+
+.jak-logo{
+    width: 20%;
+    top: 2%;
+    left: 2%;
+}
+.jak-logo img{
+    width: 100%;
+}
+.desc{
+    /*color: #fff;*/
+}
+.desc p{
+    line-height: 1.3;
+    font-family: 'uni sans' !important
+}
+.identity{
+    color: #FFF;
+    /*position: absolute;*/
+    /*bottom: 2px;
+    right: 30px;*/
+    font-size: calc(0.5% + 0.5vw + 0.5vh) !important;
+}
+.identity p{
+    /*line-height: 1.3;*/
+    font-family: 'uni sans' !important;
+    /*margin-bottom: 0px;
+    margin-left: 15px;*/
+}
+ul.contac{
+    display: flex;
+    list-style: none;
+}
+ul.contac:last-child{
+    margin-right: 0px;
+}
+ul.contac > li{
+    margin-right: 20px;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.logo img.jak{
+    width: 60px
+}
+.logo img.sc{
+    width: 60px
+}
+.logo img.dinkes{
+    width: 60px
+}
+.bg{
+    opacity: 0.8 !important;
+}
+.container{
+    padding: 0 !important;
+    position: absolute;
+    height: 100vh;
+    width: 95vw !important;
+    left: 0;
+}
+.masuk{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+    width: 10%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.masuk:hover{
+    transform: scale(0.8)
+}
+.obat{
+    position: absolute;
+    bottom: 53%;
+    width: 15%;
+    left: 42%;
+    cursor: pointer;
+    transition: 0.5s
+}
+.obat:hover{
+    transform: scale(0.8);
+}
+.risiko{
+    position: absolute;
+    bottom: 43%;
+    width: 15%;
+    left: 63%;
+    cursor: pointer;
+    transition: 0.5s
+}
+.risiko:hover{
+    transform: scale(0.8)
+}
+.kinerja{
+    position: absolute;
+    bottom: 13%;
+    width: 15%;
+    left: 78%;
+    cursor: pointer;
+    transition: 0.5s
+}
+.kinerja:hover{
+    transform: scale(0.8)
+}
+.teman{
+    position: absolute;
+    bottom: 13%;
+    width: 15%;
+    left: 9%;
+    cursor: pointer;
+    transition: 0.5s
+}
+.teman:hover{
+    transform: scale(0.8)
+}
+.reservasi{
+    position: absolute;
+    bottom: 43%;
+    width: 15%;
+    left: 22%;
+    cursor: pointer;
+    transition: 0.5s
+}
+.reservasi:hover{
+    transform: scale(0.8)
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 1366px) and (max-height:768px){
+    
+}
